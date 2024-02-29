@@ -15,9 +15,6 @@ public class Main extends Application {
 
     private Goblin goblin = new Goblin("src/main/java/goblin/data.txt");
 
-    public Main() {
-    }
-
     @Override
     public void start(Stage stage) {
         try {

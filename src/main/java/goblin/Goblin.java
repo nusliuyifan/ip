@@ -4,14 +4,18 @@ import goblin.task.Task;
 import goblin.command.Command;
 import goblin.exception.OrkException;
 import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.ScrollPane;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
 
 import java.io.ByteArrayOutputStream;
+import java.io.IOException;
 import java.io.PrintStream;
 
 //Solution below inspired by https://github.com/nus-cs2103-AY1920S1/duke/pull/23/commits
